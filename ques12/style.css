@@ -1,0 +1,33 @@
+.wrapper{
+    padding: 5rem auto;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+}
+
+.box{
+    margin: 5rem 2rem;
+    width: 350px;
+    background-color: rgb(209, 232, 243);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px  grey;
+}
+.btn{
+    font-weight: bold;
+    outline: none;
+    border: 2px solid rgb(38, 138, 163);
+    padding: 10px 20px;
+    margin: 10px 20px 10px 0;
+}
+
+.btn-primary{
+    background-color: rgb(38, 138, 163);
+    color: white;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    color: black;
+}
