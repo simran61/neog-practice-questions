@@ -1,6 +1,7 @@
 var userPassword=document.querySelector('.user-password');
 var btnCheck=document.querySelector('.btn-check');
-var showMsg= document.querySelector('.show-msg')
+var showMsg= document.querySelector('.show-msg');
+var msgLength=document.querySelector('.msg-length')
 
 btnCheck.addEventListener('click',passwordChecker)
 
@@ -17,6 +18,6 @@ function passwordChecker() {
 
 userPassword.addEventListener('input',countChecker)
 
-function name(params) {
-    
+function countChecker() {
+    msgLength.innerText= userPassword.value.length;
 }
